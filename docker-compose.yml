@@ -1,0 +1,6 @@
+services:
+  kafka:
+    image: apache/kafka:latest
+    container_name: Kafka
+    ports:
+      - "9092:9092"
