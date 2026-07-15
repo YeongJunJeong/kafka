@@ -35,5 +35,4 @@ public class OrderListeners {
     public void sellerNoti(String msg) {
         System.out.println("[판매자알림] " + msg);
     }
-
 }
